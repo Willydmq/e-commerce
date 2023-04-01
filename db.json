@@ -1,0 +1,155 @@
+{
+  "StarWars": [
+    {
+      "URL": "https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3RhciUyMHdhcnN8ZW58MHx8MHx8&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 1
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1601814933824-fd0b574dd592?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c3RhciUyMHdhcnN8ZW58MHx8MHx8&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 2
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1546561892-65bf811416b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHN0YXIlMjB3YXJzfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 3
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHN0YXIlMjB3YXJzfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 4
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1589632727880-664c976618ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fHN0YXIlMjB3YXJzfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 5
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1624467906831-1f80d34ed5ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHN0YXIlMjB3YXJzfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 6
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1586136194012-35ceaddbd773?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c3RhciUyMHdhcnN8ZW58MHx8MHx8&w=1000&q=80",
+      "name": "Prueba",
+      "price": 500,
+      "description": "kjhgggggggggggggggggggggggggggggggggggggggggggggg",
+      "id": "22e8366f-ac2a-42c4-80a6-06320b622574"
+    }
+  ],
+  "Consolas": [
+    {
+      "URL": "https://images.unsplash.com/photo-1571716846319-21f2bf095516?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uc29sYXN8ZW58MHx8MHx8&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 7
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1550921464-9f7a27f99edc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29uc29sYXN8ZW58MHx8MHx8&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 8
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1592839719941-8e2651039d01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29uc29sYXN8ZW58MHx8MHx8&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 9
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbnNvbGFzfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 10
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1525799894461-3cfe39b72d69?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGNvbnNvbGFzfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 11
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1632803227975-b6a5688c9c46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTl8fGNvbnNvbGFzfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 12
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1555864326-5cf22ef123cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNvbnNvbGFzfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "name": "Pruebs",
+      "price": 33,
+      "description": "Rueba",
+      "id": "91862797-3a2f-4eef-8766-881af0302e4f"
+    },
+    {
+      "URL": "https://plus.unsplash.com/premium_photo-1664194584291-cfc411d05998?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGNvbnNvbGFzfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "name": "Prueba",
+      "price": 100,
+      "description": "Prueba",
+      "id": "c32153c8-8bfc-4a06-a3d6-080f452f9293"
+    }
+  ],
+  "Diversos": [
+    {
+      "URL": "https://images.unsplash.com/photo-1626218174358-7769486c4b79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBnYW1pbmd8ZW58MHx8MHx8&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 13
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGMlMjBnYW1pbmd8ZW58MHx8MHx8&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 14
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1616588589676-62b3bd4ff6d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGMlMjBnYW1pbmd8ZW58MHx8MHx8&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 15
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBjJTIwZ2FtaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 16
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1587302912306-cf1ed9c33146?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHBjJTIwZ2FtaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 17
+    },
+    {
+      "URL": "https://images.unsplash.com/photo-1555617778-02518510b9fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBjJTIwZ2FtaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "name": "Producto XYZ",
+      "price": 60,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobi quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat ut architecto, nesciunt incidunt odit tempora uidem molestias excepturi fugit aliquid culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quaerat vitae itaque voluptatum atque ipsam perferendis dignissimos fugiat u architecto, nesciunt incidunt odit tempora quidem molestias excepturi fugit aliquid culpa?",
+      "id": 18
+    }
+  ]
+}

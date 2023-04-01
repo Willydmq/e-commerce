@@ -1,0 +1,194 @@
+:root {
+  --cor-de-fundo: #e6efff;
+  --cor-de-link: #000000;
+
+  --cor-de-button_input: #867555;
+
+  --cor-de-he_fo: #c3a875;
+  --cor-de-section: #9eafe5;
+
+  --raleway: "Raleway", sans-serif;
+
+  --cor-de-button_link: #2a7ae4;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--cor-de-fundo);
+  font-family: var(--raleway);
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cor-de-link);
+}
+
+input {
+  outline: none;
+}
+
+textarea {
+  outline: none;
+}
+
+.container {
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+.button {
+  cursor: pointer;
+  border: 2px solid currentColor;
+  /* border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem; */
+  color: var(--cor-de-button_input);
+  background-color: var(--cor-de-he_fo);
+  width: 133px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  overflow: hidden;
+  padding: 5px 16px;
+  position: relative;
+  text-decoration: none;
+  transition: 0.2s transform ease-in-out;
+  -webkit-transition: 0.2s transform ease-in-out;
+  -moz-transition: 0.2s transform ease-in-out;
+  -ms-transition: 0.2s transform ease-in-out;
+  -o-transition: 0.2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px -7px;
+}
+
+.button::after {
+  background-color: var(--cor-de-button_input);
+  /* border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem; */
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  -webkit-transform: translate(-100%, 0) rotate(10deg);
+  -moz-transform: translate(-100%, 0) rotate(10deg);
+  -ms-transform: translate(-100%, 0) rotate(10deg);
+  -o-transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-in-out;
+  -webkit-transition: 0.2s transform ease-in-out;
+  -moz-transition: 0.2s transform ease-in-out;
+  -ms-transition: 0.2s transform ease-in-out;
+  -o-transition: 0.2s transform ease-in-out;
+  will-change: transform;
+  z-index: -1;
+}
+
+.button:hover::after {
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+}
+
+.button:hover {
+  border: 0;
+  color: var(--cor-de-fundo);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  will-change: transform;
+}
+
+.registro__complete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.resgister-car {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--cor-de-he_fo);
+  border-radius: 10px;
+  box-shadow: var(--cor-de-button_input);
+  width: 100%;
+  max-width: 45rem;
+  padding: 1.75rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.register-card__icon-complete {
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-bottom: 1rem;
+  background-image: url(../img/checkmark.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: hue-rotate(180deg) brightness(0) saturate(100%) invert(22%) sepia(84%)
+    saturate(5261%) hue-rotate(208deg) brightness(91%) contrast(91%);
+  -webkit-filter: hue-rotate(180deg) brightness(0) saturate(100%) invert(22%)
+    sepia(84%) saturate(5261%) hue-rotate(208deg) brightness(91%) contrast(91%);
+}
+
+.ticard {
+  max-width: 20rem;
+  margin-bottom: 1rem;
+}
+
+.register-card__icon-error {
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-bottom: 1rem;
+  background-image: url(../img/denied.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: calc((100% - 740px) / 2);
+    padding-right: calc((100% - 740px) / 2);
+  }
+  .registro__complete {
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding-left: calc((100% - 940px) / 2);
+    padding-right: calc((100% - 940px) / 2);
+  }
+}

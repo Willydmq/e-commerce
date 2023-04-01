@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/bases.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/index/section__2.css" />
+    <link rel="stylesheet" href="./styles/products/section__2.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <!-- Fonte del Proyecto Raleway -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Productos AluraGeek</title>
+  </head>
+  <body>
+    <!-- Sección del Menú  -->
+    <header class="header container">
+      <div class="header__part1">
+        <img
+          src="./img/alurageek.svg"
+          alt="logo ecommers"
+          class="part1-h__logo"
+        />
+        <h3 class="part1-h__nombre">AluraGeek</h3>
+      </div>
+      <div class="part1-h__nombre-login">
+        <div class="header__part2 search">
+          <form action="" class="part2-h__form">
+            <span class="part2-h__form-search span">
+              <input
+                name="search"
+                type="search"
+                class="form-search__input"
+                placeholder="¿Que deseas buscar?"
+                autocomplete="off"
+              />
+              <button class="form-search__icon" type="submit">
+                <img
+                  src="./img/search.svg"
+                  alt="lupa search"
+                  class="search-icon icon"
+                />
+              </button>
+            </span>
+          </form>
+        </div>
+        <div class="header__part3">
+          <span class="part3-h__span">
+            <a href="./index.html" class="part3-h__span-redireccionar">
+              <button class="span-redireccionar button">
+                Menu Administrador
+              </button>
+            </a>
+          </span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Sección del Productos  -->
+      <section class="section__2 container">
+        <div class="section__2-part1">
+          <div class="part1-2__descripcion">
+            <h2 class="part1-2__descripcion-titulo">Todos los productos</h2>
+            <a href="./addproducts.html"
+              ><button class="part3-f__form-button button">
+                Agregar Producto
+              </button></a
+            >
+          </div>
+          <h2 class="part1-2__descripcion-titulo tdiv">StarWars</h2>
+          <div class="part2-2__anexo" starwars></div>
+          <h2 class="part1-2__descripcion-titulo tdiv">Consolas</h2>
+          <div class="part2-2__anexo" consola></div>
+          <h2 class="part1-2__descripcion-titulo tdiv">Diversos</h2>
+          <div class="part2-2__anexo" diversos></div>
+        </div>
+      </section>
+      <!-- Sección del Footer  -->
+      <footer class="footer container">
+        <div class="footer__part1">
+          <div class="footer__part1-div1">
+            <div class="part1-div1">
+              <img
+                src="./img/alurageek.svg"
+                alt="logo ecommers"
+                class="part1-f__logo"
+              />
+              <h3 class="part1-f__nombre">AluraGeek</h3>
+            </div>
+            <div class="part2-div1">
+              <h3 class="part2-f__menu">Quienes somos</h3>
+              <h3 class="part2-f__menu">Política de privacidad</h3>
+              <h3 class="part2-f__menu">Programa de fidelidad</h3>
+              <h3 class="part2-f__menu">Nuestras Tiendas</h3>
+              <h3 class="part2-f__menu">Quiero ser franquiciado</h3>
+              <h3 class="part2-f__menu">Anúncie aquí</h3>
+            </div>
+          </div>
+          <div class="footer__part1-div2 foodiv2">
+            <h2 class="part3-f__titulo">Hable con Nosotros</h2>
+            <form action="" class="part3-f__form">
+              <div class="part3-f__form-input">
+                <input type="text" class="form-input__input" />
+                <label for="" class="form-input__label">Nombre</label>
+              </div>
+              <div class="part3-f__form-textarea">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="form-textarea__textarea"
+                ></textarea>
+                <label for="" class="form-textarea__label"
+                  >Escriba tu mensaje</label
+                >
+              </div>
+              <button class="part3-f__form-button button">
+                Enviar mensaje
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="footer__part2">
+          <p class="part2-f__footer">Desarrollado por William Maldonado</p>
+          <p class="part2-f__footer">2023</p>
+        </div>
+      </footer>
+    </main>
+    <!-- Script del documento JavaScript -->
+    <script type="module" src="./controllers/product-controller.js"></script>
+  </body>
+</html>

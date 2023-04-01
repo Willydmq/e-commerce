@@ -1,0 +1,148 @@
+.section__1 {
+  background-color: var(--cor-de-section);
+  padding: 16px;
+}
+
+.footer__part1-div2 {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.part3-f__titulo {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.form {
+  align-items: center;
+}
+
+.input2 {
+  width: 99%;
+}
+
+.form-input__label {
+  background-color: var(--cor-de-section);
+}
+
+.labelselect {
+  background-color: var(--cor-de-section);
+  width: 305px;
+}
+
+.input1:focus ~ label {
+  background-color: var(--cor-de-section);
+  width: 140px;
+}
+
+.input2:focus ~ label {
+  background-color: var(--cor-de-section);
+  width: 75px;
+}
+
+.input3:focus ~ label {
+  background-color: var(--cor-de-section);
+  width: 165px;
+}
+
+.input4:focus ~ label {
+  background-color: var(--cor-de-section);
+  width: 150px;
+}
+
+.textlabel:focus ~ label {
+  background-color: var(--cor-de-section);
+  width: 190px;
+}
+
+.input1:valid ~ label,
+.input2:valid ~ label,
+.input3:valid ~ label,
+.input4:valid ~ label,
+.textlabel:valid ~ label {
+  background-color: var(--cor-de-section);
+}
+
+.labeltext {
+  /* width: 318px; */
+  height: 109px;
+}
+
+.formtext:focus ~ label {
+  background-color: var(--cor-de-section);
+  width: 195px;
+}
+
+.blogin {
+  width: 100%;
+}
+
+select option[value] {
+  background-color: var(--cor-de-he_fo);
+}
+
+select option {
+  color: var(--cor-de-button_input);
+}
+
+@media screen and (min-width: 768px) {
+  .searicon {
+    right: 230px;
+  }
+
+  .section__1 {
+    padding: 32px;
+  }
+
+  .input1,
+  .input3,
+  .input4,
+  .textlabel {
+    width: 97.5%;
+  }
+
+  .input2 {
+    width: 100%;
+  }
+
+  .label {
+    width: 97.6%;
+  }
+
+  .labelselect {
+    width: 95%;
+  }
+
+  .footer {
+    gap: 480px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .searicon {
+    right: 450px;
+  }
+
+  .section__1 {
+    padding: 64px;
+  }
+
+  .span-redireccionar:before {
+    display: block;
+    content: "Menu Administrador";
+    line-height: 22px;
+  }
+
+  .sec1hable {
+    padding: 0 288px;
+  }
+
+  .input2 {
+    width: 102%;
+  }
+
+  .labelselect {
+    width: 93%;
+  }
+}

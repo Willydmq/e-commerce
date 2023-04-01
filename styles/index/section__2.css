@@ -1,0 +1,214 @@
+.section__2 {
+  background-color: var(--cor-de-section);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.section__2-part1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.part1-2__descripcion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.redireccion__li-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: var(--cor-de-fundo);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  gap: 4px;
+}
+
+.redireccion__li-link:hover {
+  color: var(--cor-de-button_link);
+  -webkit-text-stroke: 0.02px var(--cor-de-link);
+}
+
+.part2-2__anexo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(156px, 1fr));
+  gap: 16px;
+}
+
+.part2-2__productos {
+  width: 100%;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* .part2-2__productos:nth-last-child(-n + 2) {
+  display: none;
+} */
+
+.part2-2__productos:nth-of-type(n + 5) {
+  display: none;
+}
+
+.part2-2__productos-img {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 174px;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: cover;
+  background-position: center center;
+}
+
+.sw1 {
+  background-image: url("/img/starwars_1.png") no-repeat center / cover;
+}
+
+.sw2 {
+  background: url("/img/starwars_2.png") no-repeat center / cover;
+}
+
+.sw3 {
+  background: url("/img/starwars_3.png") no-repeat center / cover;
+}
+
+.sw4 {
+  background: url("/img/starwars_4.png") no-repeat center / cover;
+}
+
+.sw5 {
+  background: url("/img/starwars_5.png") no-repeat center / cover;
+}
+
+.sw6 {
+  background: url("/img/starwars_6.png") no-repeat center / cover;
+}
+
+.c1 {
+  background: url("/img/consola_1.png") no-repeat center / cover;
+}
+
+.c2 {
+  background: url("/img/consola_2.png") no-repeat center / cover;
+}
+
+.c3 {
+  background: url("/img/consola_3.png") no-repeat center / cover;
+}
+
+.c4 {
+  background: url("/img/consola_4.png") no-repeat center / cover;
+}
+
+.c5 {
+  background: url("/img/consola_5.png") no-repeat center / cover;
+}
+
+.c6 {
+  background: url("/img/consola_6.png") no-repeat center / cover;
+}
+
+.d1 {
+  background: url("/img/diversos_1.png") no-repeat center / cover;
+}
+
+.d2 {
+  background: url("/img/diversos_2.png") no-repeat center / cover;
+}
+
+.d3 {
+  background: url("/img/diversos_3.png") no-repeat center / cover;
+}
+
+.d4 {
+  background: url("/img/diversos_4.png") no-repeat center / cover;
+}
+
+.d5 {
+  background: url("/img/diversos_5.png") no-repeat center / cover;
+}
+
+.d6 {
+  background: url("/img/diversos_6.png") no-repeat center / cover;
+}
+
+.part2-2__productos-descripcion {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.productos-descripcion__titulo {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.productos-descripcion__precio {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--cor-de-button_link);
+  -webkit-text-stroke: 0.1px var(--cor-de-link);
+}
+
+.link:hover {
+  color: var(--cor-de-button_input);
+  -webkit-text-stroke: 0.1px var(--cor-de-link);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  z-index: 1;
+  filter: drop-shadow(2px 10px 18px var(--cor-de-link));
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .searicon {
+    right: 220px;
+  }
+
+  .section__2-part1 {
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .searicon {
+    right: 440px;
+  }
+
+  .part2-2__anexo {
+    grid-template-columns: repeat(auto-fit, minmax(146px, 1fr));
+  }
+
+  .part2-2__productos:nth-of-type(n + 7) {
+    display: none;
+  }
+
+  .part2-2__productos:nth-of-type(n + 1):nth-of-type(-n + 6) {
+    display: flex;
+  }
+}

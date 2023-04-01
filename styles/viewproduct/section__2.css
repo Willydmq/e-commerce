@@ -1,0 +1,13 @@
+.section__2 {
+  background-color: var(--cor-de-fundo);
+}
+
+.part1-2__descripcion-titulo {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.hidden {
+  display: flex;
+}

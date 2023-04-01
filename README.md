@@ -11,7 +11,7 @@
 
 <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="./img/alurageek.svg" width="">
-    <a style="color: blue; font-size: 20px; display: block; text-align: center;" href="https://www.tupaginaweb.com/proyecto" target="_blank">The Force Store</a>
+    <a style="color: blue; font-size: 20px; display: block; text-align: center;" href="https://willydmq.github.io/e-commerce/" target="_blank">The Force Store</a>
 </div>
 
 ## Instalación ⚙️

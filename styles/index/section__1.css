@@ -9,7 +9,7 @@
 }
 
 .section__1-part1 {
-  background: url("/img/Hero.png") no-repeat center / cover;
+  background: url("./img/Hero.png") no-repeat center / cover;
   width: 100%;
   position: absolute;
   top: 0;
